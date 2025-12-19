@@ -234,7 +234,7 @@ if (!customElements.get('header-component')) {
 onDocumentLoaded(() => {
   const header = document.querySelector('header-component');
   const headerGroup = document.querySelector('#header-group');
-  console.log("test")
+  console.log("sdf")
 
   // Note: Initial header heights are set via inline script in theme.liquid
   // This ResizeObserver handles dynamic updates after page load
